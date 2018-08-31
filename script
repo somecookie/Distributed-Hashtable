@@ -1,0 +1,5 @@
+#!/bin/bash
+for i in `seq 1 100`;
+do
+        ./benchons -n 174 -r 20 -w 20 -- >> ~/Documents/pps18-team-bayestm/done/test_results/test_w_rx10.txt
+done
